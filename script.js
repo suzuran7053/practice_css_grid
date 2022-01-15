@@ -22,10 +22,15 @@ $("document").ready(function() {
         });
         $("#hiddenSearchBar input").css({
             "width": "100%",
-            "padding": "4px"
+            "padding": "4px",
+            "border-radius": "3px",
+            "height": "49px"
         });
         $("#searchForm").css({
             "flex-grow": "2",
+            "border": "solid 1px white",
+            "border-radius": "3px",
+            "height": "100%"
         });
         $("#defaultMenu").css("display", "none");
     }
