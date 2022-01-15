@@ -5,20 +5,70 @@
     <title>CSS Grid Practice "Legacy"</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content=""> -->
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- FONTAWESOME -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+
     <link href="legacy.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
+    <header>
+        <nav id="defaultMenu">
+            <div class="menuItem">
+                <img src="./images/logo.png" alt="WB logo">
+            </div>
+            <div class="menuItem">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="menuItem">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
 
-    </nav>
+        <nav id="hiddenMenu">
+            <ul>
+                <li><a href="">Movies</a></li>
+                <li><a href="">TX Shows</a></li>
+                <li><a href="">Games & Apps</a></li>
+                <li><a href="">Brands</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Experiences</a></li>
+                <li><a href="">WB Shop</a></li>
+            </ul>
+        </nav>
+
+        <nav id="hiddenSearchBar">
+            <div id="searchForm">
+                <form action="get">
+                    <label for="search"></label>
+                    <input type="text" name="search" id="search" placeholder="Search by title">
+                </form>
+            </div>
+            <div class="menuItem">
+                <i class="fas fa-times"></i>
+            </div>
+        </nav>
+    </header>
+
 
     <main></main>
 
     <footer>
 
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
