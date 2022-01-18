@@ -76,11 +76,11 @@ header {
     }
 }
 
-#headerText {
+.textBox {
     padding: 2rem 1.5rem;
 }
 
-#headerText p {
+.textBox p {
     margin: .5rem 0;
 }
 
@@ -95,4 +95,53 @@ header {
 .leftLine {
     border-left: solid 2px grey;
     padding-left: 1.5rem;
+}
+
+
+/* MAIN */
+
+#section_watchIt {
+    padding: 2rem;
+}
+
+
+/* WATCH IT */
+
+h2 {
+    font-size: 2rem;
+}
+
+#section_watchIt p {
+    padding: 1.5rem;
+    font-weight: 300;
+}
+
+#section_watchIt h3 {
+    margin: 2rem 0;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.channels div {
+    margin: .3rem;
+}
+
+.channels img {
+    width: 100px;
+    height: auto;
+    border: solid 1px rgb(223, 223, 223);
+}
+
+.channels img:hover {
+    border: solid 1px rgb(122, 119, 119);
+    box-shadow: 0px 5px 10px rgba(208, 208, 208, 0.748);
+}
+
+@media only screen and (min-width: 990px) {
+    .channels img {
+        width: 200px;
+    }
 }
