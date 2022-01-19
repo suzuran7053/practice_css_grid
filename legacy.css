@@ -169,6 +169,8 @@ h2 {
 
 /* NEWS ARTICLES */
 
+
+/*
 #newsArticles {
     height: 600px;
     background-color: black;
@@ -210,4 +212,50 @@ h2 {
 #Harley {
     background-image: url("images/hq_featurette.png");
     background-size: cover;
+}*/
+
+
+/* JAM */
+
+#jam {
+    background-color: black;
+    color: white;
+}
+
+#jamImageBox {
+    text-align: center;
+}
+
+#jam>div {
+    padding: 2rem;
+}
+
+#jam h2,
+#jam h3,
+#jam h4 {
+    margin: 1.5rem 0rem;
+}
+
+#jam p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+}
+
+.jamBoxes {
+    padding: 1rem;
+}
+
+#jamRightBox .fab {
+    margin: 0rem .5rem;
+    font-size: 1.9rem;
+}
+
+@media only screen and (min-width: 990px) {
+    #jam>div {
+        display: flex;
+    }
+    #jamMiddleBox {
+        max-width: 50vw;
+    }
 }
