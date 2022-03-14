@@ -21,7 +21,8 @@ li {
 
 /* HEADER */
 
-header {
+header,
+footer {
     background-color: #000;
     color: #fff;
 }
@@ -257,5 +258,38 @@ h2 {
     }
     #jamMiddleBox {
         max-width: 50vw;
+    }
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 2em 0em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+footer small {
+    margin: 1em 0em;
+}
+
+footer ul {
+    margin: 1em 0;
+}
+
+footer li {
+    display: inline;
+    margin: 1em 1em 0em;
+}
+
+@media only screen and (max-width: 840px) {
+    footer li {
+        display: block;
     }
 }
